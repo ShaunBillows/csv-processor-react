@@ -1,0 +1,60 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #212121;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  color: white;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.input-file {
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 10px;
+  border: none;
+  background-color: #f2f2f2;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  width: 100%;
+  cursor: pointer;
+  color: black;
+}
+
+.process-data-button {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-top: 10px;
+  cursor: pointer;
+  border: none;
+}
+
+.success-text {
+  margin: 1rem;
+}
+
+.csv-link {
+  padding: 10px;
+  background-color: #337ab7;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  text-decoration: none;
+}
