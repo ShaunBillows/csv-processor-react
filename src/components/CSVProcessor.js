@@ -97,7 +97,7 @@ function CSVProcessor() {
             <button className="process-data-button" onClick={handleProcessData}>
               Process Data
             </button>
-            {isProcessed ? (
+            {isProcessed && csvData.length && file ? (
               <>
                 <div className="success-text">
                   Your CSV file has been processed and is ready to download.
