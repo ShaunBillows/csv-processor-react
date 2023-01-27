@@ -2,6 +2,10 @@
 
 CSVProcessor is a React component that allows users to upload a CSV file, process the data using a custom function from utils/processData.js, and download the updated CSV file. This project was created to provide a reusable and customisable solution for handling CSV file uploads and data processing in React applications.
 
+## Motivation
+
+The motivation behind this project was to provide a template for a CSV Processor app that can be reused to help friends and family automate the tedious tasks I always catch them performing on Excel. By using this app as a template, it allows for the creation of a single JavaScript function that can be customised to fit specific use cases, ultimately empower individuals to streamline their workflows and make data processing more efficient.
+
 ## Features
 
 - User can select a CSV file to upload
