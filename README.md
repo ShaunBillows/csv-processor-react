@@ -1,6 +1,6 @@
-# CSVUploader
+# CSVProcessor
 
-CSVUploader is a React component that allows users to upload a CSV file, process the data using a custom function from utils/processData.js, and download the updated CSV file. This project was created to provide a reusable and customisable solution for handling CSV file uploads and data processing in React applications.
+CSVProcessor is a React component that allows users to upload a CSV file, process the data using a custom function from utils/processData.js, and download the updated CSV file. This project was created to provide a reusable and customisable solution for handling CSV file uploads and data processing in React applications.
 
 ## Features
 
@@ -13,8 +13,8 @@ CSVUploader is a React component that allows users to upload a CSV file, process
 ## Getting Started
 
 - Install the necessary dependencies by running 'npm install' or 'yarn install'
-- Import the CSVUploader component into your App.js file
-- Use the component in your app by adding '&lt;CSVUploader /&gt;' to your JSX code
+- Import the CSVProcessor component into your App.js file
+- Use the component in your app by adding '&lt;CSVProcessor /&gt;' to your JSX code
 - Customise the data processing function in utils/processData.js to fit your specific use case
 
 ## Customisation

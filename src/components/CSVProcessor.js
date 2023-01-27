@@ -2,7 +2,7 @@ import { CSVLink } from "react-csv";
 import { useState } from "react";
 import { processData } from "../utils/processData";
 
-function CSVUploader() {
+function CSVProcessor() {
   // State to store the CSV data
   const [csvData, setCsvData] = useState([]);
   // State to store the uploaded file
@@ -118,4 +118,4 @@ function CSVUploader() {
   );
 }
 
-export default CSVUploader;
+export default CSVProcessor;

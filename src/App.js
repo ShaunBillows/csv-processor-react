@@ -1,10 +1,10 @@
-import CSVUploader from "./components/CSVUploader";
+import CSVProcessor from "./components/CSVProcessor";
 import "./App.css";
 
 const App = () => {
   return (
     <>
-      <CSVUploader />
+      <CSVProcessor />
     </>
   );
 };
